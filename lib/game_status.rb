@@ -4,7 +4,7 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
-def won(board)
+def won?(board)
   top_row_win = [0,1,2]
 
 
