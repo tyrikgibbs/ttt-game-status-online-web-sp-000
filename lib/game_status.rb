@@ -15,3 +15,5 @@ def won?(board)
       "X won in the middle row"
         elsif board[btm_row_win[6]] == "X" && board[btm_row_win[7]] == "X" && board[btm_row_win[8]] == "X"
             "X won in the bottom row"
+  end
+end
