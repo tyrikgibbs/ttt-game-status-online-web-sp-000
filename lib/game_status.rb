@@ -16,12 +16,11 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  top_row_win = [0,1,2]
-  mid_row_win = [3,4,5]
-  btm_row_win = [6,7,8]
+  WIN_COMBINATIONS.each {|win_combo|
+      index_0 = win_combo[0]
+      index_1 = win_combo[1]
+      index_2 = win_combo[2]
 
-  if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
-  "X won in the top row"
   
   end
 end
