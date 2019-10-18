@@ -36,5 +36,5 @@ end
 
 def full?(board)
   board.all? each do |taken|
-    if |index| index == "X" || index == "O"
+    if taken == "X" || taken == "O"
 end
