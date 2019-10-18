@@ -35,8 +35,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? each do |taken|
-    if taken == "X" || taken == "O"
-    end
-  end
+  board.all? {|index| index == "X" || index == "O"}
 end
