@@ -22,9 +22,6 @@ def won?(board)
 
   if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
   "X won in the top row"
-    elsif board[mid_row_win[3]] == "X" && board[mid_row_win[4]] == "X" && board[mid_row_win[5]] == "X"
-      "X won in the middle row"
-        elsif board[btm_row_win[6]] == "X" && board[btm_row_win[7]] == "X" && board[btm_row_win[8]] == "X"
-            "X won in the bottom row"
+  
   end
 end
